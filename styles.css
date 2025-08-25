@@ -199,6 +199,28 @@ main {
     font-size: 1.05rem;
 }
 
+.fact-link {
+    display: inline-block;
+    color: #daa520;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid #daa520;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+    background-color: transparent;
+}
+
+.fact-link:hover {
+    background-color: #daa520;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(218, 165, 32, 0.3);
+    text-decoration: none;
+}
+
 /* Products Section */
 .products {
     padding: 4rem 2rem;
